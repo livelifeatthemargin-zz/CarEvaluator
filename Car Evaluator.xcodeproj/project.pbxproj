@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6B26AF191F4AC50077D3A8 /* Ferrari_458.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6B26AC191F4AC50077D3A8 /* Ferrari_458.png */; };
+		DC6B26B0191F4AC50077D3A8 /* ferrari_enzo_crash.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6B26AD191F4AC50077D3A8 /* ferrari_enzo_crash.png */; };
+		DC6B26B1191F4AC50077D3A8 /* swerve_will_smith.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6B26AE191F4AC50077D3A8 /* swerve_will_smith.png */; };
+		DC6B26B4191F4D9E0077D3A8 /* VSFViewRisky.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6B26B3191F4D9E0077D3A8 /* VSFViewRisky.m */; };
+		DC846189191DB89C007A21AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC846188191DB89C007A21AE /* Foundation.framework */; };
+		DC84618B191DB89C007A21AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84618A191DB89C007A21AE /* CoreGraphics.framework */; };
+		DC84618D191DB89C007A21AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84618C191DB89C007A21AE /* UIKit.framework */; };
+		DC846193191DB89C007A21AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC846191191DB89C007A21AE /* InfoPlist.strings */; };
+		DC846195191DB89C007A21AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC846194191DB89C007A21AE /* main.m */; };
+		DC846199191DB89C007A21AE /* VSFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC846198191DB89C007A21AE /* VSFAppDelegate.m */; };
+		DC84619C191DB89C007A21AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC84619A191DB89C007A21AE /* Main.storyboard */; };
+		DC84619F191DB89C007A21AE /* VSFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC84619E191DB89C007A21AE /* VSFViewController.m */; };
+		DC8461A1191DB89C007A21AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8461A0191DB89C007A21AE /* Images.xcassets */; };
+		DC8461A8191DB89D007A21AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8461A7191DB89D007A21AE /* XCTest.framework */; };
+		DC8461A9191DB89D007A21AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC846188191DB89C007A21AE /* Foundation.framework */; };
+		DC8461AA191DB89D007A21AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84618C191DB89C007A21AE /* UIKit.framework */; };
+		DC8461B2191DB89D007A21AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8461B0191DB89D007A21AE /* InfoPlist.strings */; };
+		DC8461B4191DB89D007A21AE /* Car_EvaluatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8461B3191DB89D007A21AE /* Car_EvaluatorTests.m */; };
+		DC8461BF191DB93F007A21AE /* VSFRegModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8461BE191DB93F007A21AE /* VSFRegModel.m */; };
+		DCCC11A6191E20310024D849 /* VSFResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC11A5191E20310024D849 /* VSFResultsViewController.m */; };
+		DCCC11A9191E36A50024D849 /* VSFViewNotRisky.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC11A8191E36A50024D849 /* VSFViewNotRisky.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC8461AB191DB89D007A21AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC84617D191DB89C007A21AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC846184191DB89C007A21AE;
+			remoteInfo = "Car Evaluator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC6B26AC191F4AC50077D3A8 /* Ferrari_458.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ferrari_458.png; path = "Car Evaluator/Ferrari_458.png"; sourceTree = "<group>"; };
+		DC6B26AD191F4AC50077D3A8 /* ferrari_enzo_crash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ferrari_enzo_crash.png; path = "Car Evaluator/ferrari_enzo_crash.png"; sourceTree = "<group>"; };
+		DC6B26AE191F4AC50077D3A8 /* swerve_will_smith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = swerve_will_smith.png; path = "Car Evaluator/swerve_will_smith.png"; sourceTree = "<group>"; };
+		DC6B26B2191F4D9E0077D3A8 /* VSFViewRisky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSFViewRisky.h; sourceTree = "<group>"; };
+		DC6B26B3191F4D9E0077D3A8 /* VSFViewRisky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSFViewRisky.m; sourceTree = "<group>"; };
+		DC846185191DB89C007A21AE /* Car Evaluator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Evaluator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC846188191DB89C007A21AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC84618A191DB89C007A21AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC84618C191DB89C007A21AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC846190191DB89C007A21AE /* Car Evaluator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Car Evaluator-Info.plist"; sourceTree = "<group>"; };
+		DC846192191DB89C007A21AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC846194191DB89C007A21AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC846196191DB89C007A21AE /* Car Evaluator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Car Evaluator-Prefix.pch"; sourceTree = "<group>"; };
+		DC846197191DB89C007A21AE /* VSFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSFAppDelegate.h; sourceTree = "<group>"; };
+		DC846198191DB89C007A21AE /* VSFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSFAppDelegate.m; sourceTree = "<group>"; };
+		DC84619B191DB89C007A21AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC84619D191DB89C007A21AE /* VSFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VSFViewController.h; path = "Car Evaluator/VSFViewController.h"; sourceTree = "<group>"; };
+		DC84619E191DB89C007A21AE /* VSFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VSFViewController.m; path = "Car Evaluator/VSFViewController.m"; sourceTree = "<group>"; };
+		DC8461A0191DB89C007A21AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC8461A6191DB89D007A21AE /* Car EvaluatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car EvaluatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8461A7191DB89D007A21AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DC8461AF191DB89D007A21AE /* Car EvaluatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Car EvaluatorTests-Info.plist"; sourceTree = "<group>"; };
+		DC8461B1191DB89D007A21AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC8461B3191DB89D007A21AE /* Car_EvaluatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car_EvaluatorTests.m; sourceTree = "<group>"; };
+		DC8461BD191DB93F007A21AE /* VSFRegModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSFRegModel.h; sourceTree = "<group>"; };
+		DC8461BE191DB93F007A21AE /* VSFRegModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSFRegModel.m; sourceTree = "<group>"; };
+		DCCC11A4191E20310024D849 /* VSFResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSFResultsViewController.h; path = "Car Evaluator/VSFResultsViewController.h"; sourceTree = "<group>"; };
+		DCCC11A5191E20310024D849 /* VSFResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSFResultsViewController.m; path = "Car Evaluator/VSFResultsViewController.m"; sourceTree = "<group>"; };
+		DCCC11A7191E36A50024D849 /* VSFViewNotRisky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSFViewNotRisky.h; path = "Car Evaluator/VSFViewNotRisky.h"; sourceTree = "<group>"; };
+		DCCC11A8191E36A50024D849 /* VSFViewNotRisky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSFViewNotRisky.m; path = "Car Evaluator/VSFViewNotRisky.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC846182191DB89C007A21AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84618B191DB89C007A21AE /* CoreGraphics.framework in Frameworks */,
+				DC84618D191DB89C007A21AE /* UIKit.framework in Frameworks */,
+				DC846189191DB89C007A21AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8461A3191DB89D007A21AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8461A8191DB89D007A21AE /* XCTest.framework in Frameworks */,
+				DC8461AA191DB89D007A21AE /* UIKit.framework in Frameworks */,
+				DC8461A9191DB89D007A21AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC84617C191DB89C007A21AE = {
+			isa = PBXGroup;
+			children = (
+				DC8461C2191DC742007A21AE /* Photos */,
+				DC84618E191DB89C007A21AE /* Car Evaluator */,
+				DC8461AD191DB89D007A21AE /* Car EvaluatorTests */,
+				DC846187191DB89C007A21AE /* Frameworks */,
+				DC846186191DB89C007A21AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC846186191DB89C007A21AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC846185191DB89C007A21AE /* Car Evaluator.app */,
+				DC8461A6191DB89D007A21AE /* Car EvaluatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC846187191DB89C007A21AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC846188191DB89C007A21AE /* Foundation.framework */,
+				DC84618A191DB89C007A21AE /* CoreGraphics.framework */,
+				DC84618C191DB89C007A21AE /* UIKit.framework */,
+				DC8461A7191DB89D007A21AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC84618E191DB89C007A21AE /* Car Evaluator */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC11AB191E36C50024D849 /* Views */,
+				DCCC11AA191E36AF0024D849 /* View Controllers */,
+				DC846197191DB89C007A21AE /* VSFAppDelegate.h */,
+				DC846198191DB89C007A21AE /* VSFAppDelegate.m */,
+				DC84619A191DB89C007A21AE /* Main.storyboard */,
+				DC8461BD191DB93F007A21AE /* VSFRegModel.h */,
+				DC8461BE191DB93F007A21AE /* VSFRegModel.m */,
+				DC8461A0191DB89C007A21AE /* Images.xcassets */,
+				DC84618F191DB89C007A21AE /* Supporting Files */,
+			);
+			path = "Car Evaluator";
+			sourceTree = "<group>";
+		};
+		DC84618F191DB89C007A21AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC846190191DB89C007A21AE /* Car Evaluator-Info.plist */,
+				DC846191191DB89C007A21AE /* InfoPlist.strings */,
+				DC846194191DB89C007A21AE /* main.m */,
+				DC846196191DB89C007A21AE /* Car Evaluator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC8461AD191DB89D007A21AE /* Car EvaluatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC8461B3191DB89D007A21AE /* Car_EvaluatorTests.m */,
+				DC8461AE191DB89D007A21AE /* Supporting Files */,
+			);
+			path = "Car EvaluatorTests";
+			sourceTree = "<group>";
+		};
+		DC8461AE191DB89D007A21AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8461AF191DB89D007A21AE /* Car EvaluatorTests-Info.plist */,
+				DC8461B0191DB89D007A21AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC8461C2191DC742007A21AE /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				DC6B26AC191F4AC50077D3A8 /* Ferrari_458.png */,
+				DC6B26AD191F4AC50077D3A8 /* ferrari_enzo_crash.png */,
+				DC6B26AE191F4AC50077D3A8 /* swerve_will_smith.png */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		DCCC11AA191E36AF0024D849 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC11A4191E20310024D849 /* VSFResultsViewController.h */,
+				DCCC11A5191E20310024D849 /* VSFResultsViewController.m */,
+				DC84619D191DB89C007A21AE /* VSFViewController.h */,
+				DC84619E191DB89C007A21AE /* VSFViewController.m */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DCCC11AB191E36C50024D849 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCCC11A7191E36A50024D849 /* VSFViewNotRisky.h */,
+				DCCC11A8191E36A50024D849 /* VSFViewNotRisky.m */,
+				DC6B26B2191F4D9E0077D3A8 /* VSFViewRisky.h */,
+				DC6B26B3191F4D9E0077D3A8 /* VSFViewRisky.m */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC846184191DB89C007A21AE /* Car Evaluator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8461B7191DB89D007A21AE /* Build configuration list for PBXNativeTarget "Car Evaluator" */;
+			buildPhases = (
+				DC846181191DB89C007A21AE /* Sources */,
+				DC846182191DB89C007A21AE /* Frameworks */,
+				DC846183191DB89C007A21AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Evaluator";
+			productName = "Car Evaluator";
+			productReference = DC846185191DB89C007A21AE /* Car Evaluator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC8461A5191DB89D007A21AE /* Car EvaluatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8461BA191DB89D007A21AE /* Build configuration list for PBXNativeTarget "Car EvaluatorTests" */;
+			buildPhases = (
+				DC8461A2191DB89D007A21AE /* Sources */,
+				DC8461A3191DB89D007A21AE /* Frameworks */,
+				DC8461A4191DB89D007A21AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8461AC191DB89D007A21AE /* PBXTargetDependency */,
+			);
+			name = "Car EvaluatorTests";
+			productName = "Car EvaluatorTests";
+			productReference = DC8461A6191DB89D007A21AE /* Car EvaluatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC84617D191DB89C007A21AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VSF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vincent Fong";
+				TargetAttributes = {
+					DC8461A5191DB89D007A21AE = {
+						TestTargetID = DC846184191DB89C007A21AE;
+					};
+				};
+			};
+			buildConfigurationList = DC846180191DB89C007A21AE /* Build configuration list for PBXProject "Car Evaluator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC84617C191DB89C007A21AE;
+			productRefGroup = DC846186191DB89C007A21AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC846184191DB89C007A21AE /* Car Evaluator */,
+				DC8461A5191DB89D007A21AE /* Car EvaluatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC846183191DB89C007A21AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8461A1191DB89C007A21AE /* Images.xcassets in Resources */,
+				DC6B26AF191F4AC50077D3A8 /* Ferrari_458.png in Resources */,
+				DC6B26B0191F4AC50077D3A8 /* ferrari_enzo_crash.png in Resources */,
+				DC6B26B1191F4AC50077D3A8 /* swerve_will_smith.png in Resources */,
+				DC846193191DB89C007A21AE /* InfoPlist.strings in Resources */,
+				DC84619C191DB89C007A21AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8461A4191DB89D007A21AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8461B2191DB89D007A21AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC846181191DB89C007A21AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC84619F191DB89C007A21AE /* VSFViewController.m in Sources */,
+				DC6B26B4191F4D9E0077D3A8 /* VSFViewRisky.m in Sources */,
+				DCCC11A9191E36A50024D849 /* VSFViewNotRisky.m in Sources */,
+				DC846199191DB89C007A21AE /* VSFAppDelegate.m in Sources */,
+				DC8461BF191DB93F007A21AE /* VSFRegModel.m in Sources */,
+				DCCC11A6191E20310024D849 /* VSFResultsViewController.m in Sources */,
+				DC846195191DB89C007A21AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8461A2191DB89D007A21AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8461B4191DB89D007A21AE /* Car_EvaluatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC8461AC191DB89D007A21AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC846184191DB89C007A21AE /* Car Evaluator */;
+			targetProxy = DC8461AB191DB89D007A21AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC846191191DB89C007A21AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC846192191DB89C007A21AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC84619A191DB89C007A21AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC84619B191DB89C007A21AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC8461B0191DB89D007A21AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8461B1191DB89D007A21AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC8461B5191DB89D007A21AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC8461B6191DB89D007A21AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8461B8191DB89D007A21AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Car Evaluator/Car Evaluator-Prefix.pch";
+				INFOPLIST_FILE = "Car Evaluator/Car Evaluator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC8461B9191DB89D007A21AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Car Evaluator/Car Evaluator-Prefix.pch";
+				INFOPLIST_FILE = "Car Evaluator/Car Evaluator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC8461BB191DB89D007A21AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Car Evaluator.app/Car Evaluator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Car Evaluator/Car Evaluator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Car EvaluatorTests/Car EvaluatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DC8461BC191DB89D007A21AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Car Evaluator.app/Car Evaluator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Car Evaluator/Car Evaluator-Prefix.pch";
+				INFOPLIST_FILE = "Car EvaluatorTests/Car EvaluatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC846180191DB89C007A21AE /* Build configuration list for PBXProject "Car Evaluator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8461B5191DB89D007A21AE /* Debug */,
+				DC8461B6191DB89D007A21AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8461B7191DB89D007A21AE /* Build configuration list for PBXNativeTarget "Car Evaluator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8461B8191DB89D007A21AE /* Debug */,
+				DC8461B9191DB89D007A21AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8461BA191DB89D007A21AE /* Build configuration list for PBXNativeTarget "Car EvaluatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8461BB191DB89D007A21AE /* Debug */,
+				DC8461BC191DB89D007A21AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC84617D191DB89C007A21AE /* Project object */;
+}
